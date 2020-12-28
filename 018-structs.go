@@ -4,7 +4,7 @@ import "fmt"
 
 type person struct {
 	name string
-	age int
+	age  int
 }
 
 func newPerson(name string) *person {
@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println(person{name: "Fred"})
 
-	fmt.Println(&person{name:"Ann", age: 50})
+	fmt.Println(&person{name: "Ann", age: 50})
 
 	fmt.Println(newPerson("Jon"))
 
